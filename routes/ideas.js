@@ -13,7 +13,7 @@ const Idea = mongoose.model('ideas');
 var jsonParser = bodyParser.json();
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
-// 课程
+// 项目
 router.get("/",ensureAuthenticated,(req,res) => {
   Idea.find({user:req.user.id})
       .sort({date:"desc"})

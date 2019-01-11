@@ -6,6 +6,12 @@ body {
   width: 100%;
   height: 100%;
 }
+html ol,
+body ol,
+html ul,
+body ul {
+  list-style: none;
+}
 .wrapper {
   position: relative;
   width: 100%;
