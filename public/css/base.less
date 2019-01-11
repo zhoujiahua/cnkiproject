@@ -1,0 +1,69 @@
+@import "comm";
+html,body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  // font-family: @font;
+  // font-size: 13px;
+  // color: @color;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+
+  .logo {
+    width: 130px;
+    margin: 0 auto;
+  }
+  .navbar {
+    .top-log {
+      margin-right: 100px;
+      a {
+        display: inline-block;
+        height: 50px;
+        width: 140px;
+        img {
+          height: 100%;
+          width: 150px;
+        }
+      }
+    }
+    .navbar-nav {
+      li {
+        a {
+          color: @fff;
+        }
+      }
+    }
+    .top-menu {
+      li {
+        margin-right: 20px;
+      }
+    }
+  }
+  .top-login {
+    .dropdown-menu {
+      .dropdown-item {
+        color: @color;
+      }
+    }
+  }
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+  }
+  .main {
+    padding: 85px 0 62px;
+  }
+
+  .footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    // z-index: 9;
+  }
+}

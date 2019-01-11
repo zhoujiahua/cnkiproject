@@ -1,0 +1,52 @@
+@charset "UTF-8";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+.wrapper .logo {
+  width: 130px;
+  margin: 0 auto;
+}
+.wrapper .navbar .top-log {
+  margin-right: 100px;
+}
+.wrapper .navbar .top-log a {
+  display: inline-block;
+  height: 50px;
+  width: 140px;
+}
+.wrapper .navbar .top-log a img {
+  height: 100%;
+  width: 150px;
+}
+.wrapper .navbar .navbar-nav li a {
+  color: #fff;
+}
+.wrapper .navbar .top-menu li {
+  margin-right: 20px;
+}
+.wrapper .top-login .dropdown-menu .dropdown-item {
+  color: #2a2a2a;
+}
+.wrapper .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+.wrapper .main {
+  padding: 85px 0 62px;
+}
+.wrapper .footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

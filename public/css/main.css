@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.footer {
+  border-top: 1px solid #e5e5e5;
+  background-color: #f8f8f8;
+}
+.footer .foot-con {
+  height: 60px;
+}
+.footer .foot-con p {
+  font-size: 13px;
+  color: #2a2a2a;
+  line-height: 60px;
+}
